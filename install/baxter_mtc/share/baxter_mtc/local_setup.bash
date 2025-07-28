@@ -1,0 +1,1 @@
+/home/developer/new_ros2_ws/build/baxter_mtc/ament_cmake_environment_hooks/local_setup.bash

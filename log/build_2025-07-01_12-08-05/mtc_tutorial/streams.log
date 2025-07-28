@@ -1,0 +1,72 @@
+[0.033s] Invoking command in '/home/developer/new_ros2_ws/build/mtc_tutorial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/developer/ws_moveit2/install/moveit_resources_pr2_description:/home/developer/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/developer/ws_moveit2/install/moveit_resources_fanuc_moveit_config:/home/developer/ws_moveit2/install/moveit_configs_utils:/home/developer/ws_moveit2/install/moveit_common:/home/developer/ros2_ws/install/rqt_joint_trajectory_controller:/home/developer/ros2_ws/install/rqt_controller_manager:/home/developer/ros2_ws/install/ros2controlcli:/home/developer/ros2_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --build /home/developer/new_ros2_ws/build/mtc_tutorial -- -j16 -l16
+[0.096s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.243s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.249s] -- Found moveit_task_constructor_core: 0.1.3 (/home/developer/ws_moveit2/install/moveit_task_constructor_core/share/moveit_task_constructor_core/cmake)
+[0.282s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.284s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.289s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.301s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.322s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.368s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[0.411s] -- Found parameter_traits: 0.4.0 (/opt/ros/humble/share/parameter_traits/cmake)
+[0.439s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.446s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.465s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.500s] -- Found rclcpp_lifecycle: 16.0.12 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[0.521s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[0.601s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[0.649s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.856s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[0.878s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+[0.888s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+[0.918s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+[0.972s] -- Found rviz_gazebo_bridge: 0.0.0 (/home/developer/baxter_ws/install/rviz_gazebo_bridge/share/rviz_gazebo_bridge/cmake)
+[0.973s] -- Looking for ignition-msgs8 -- found version 8.7.0
+[0.977s] -- Searching for dependencies of ignition-msgs8
+[1.036s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.036s] -- Searching for dependencies of ignition-math6
+[1.074s] -- Looking for ignition-transport11 -- found version 11.4.1
+[1.074s] -- Searching for dependencies of ignition-transport11
+[1.132s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[1.173s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[1.183s] -- Checking for module 'libzmq >= 4'
+[1.233s] --   Found libzmq , version 4.3.4
+[1.340s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[1.352s] -- Checking for module 'uuid'
+[1.395s] --   Found uuid, version 2.37.2
+[1.497s] -- Found UUID: TRUE  
+[1.527s] -- Looking for ignition-utils1 -- found version 1.5.1
+[1.527s] -- Searching for dependencies of ignition-utils1
+[1.528s] -- Searching for <ignition-utils1> component [cli]
+[1.553s] -- Looking for ignition-utils1-cli -- found version 1.5.1
+[1.553s] -- Searching for dependencies of ignition-utils1-cli
+[1.554s] -- Looking for ignition-msgs8 -- found version 8.7.0
+[1.575s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.651s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.652s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/developer/new_ros2_ws/src/mtc_tutorial/include>
+[1.652s] -- Configured cppcheck exclude dirs and/or files: 
+[1.652s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.652s] -- Added test 'lint_cmake' to check CMake code style
+[1.653s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.654s] -- Added test 'uncrustify' to check C / C++ code style
+[1.654s] -- Configured uncrustify additional arguments: 
+[1.654s] -- Added test 'xmllint' to check XML markup files
+[1.655s] -- Configuring done
+[1.718s] -- Generating done
+[1.732s] -- Build files have been written to: /home/developer/new_ros2_ws/build/mtc_tutorial
+[1.803s] [35m[1mConsolidate compiler generated dependencies of target mtc_node[0m
+[1.803s] [35m[1mConsolidate compiler generated dependencies of target novi_mtc_node[0m
+[1.864s] [ 75%] [32mBuilding CXX object CMakeFiles/mtc_node.dir/src/mtc_node.cpp.o[0m
+[1.865s] [ 75%] Built target novi_mtc_node
+[4.149s] In file included from [01m[K/home/developer/baxter_ws/install/rviz_gazebo_bridge/include/rviz_gazebo_bridge/rviz_gazebo_bridge.h:37[m[K,
+[4.149s]                  from [01m[K/home/developer/new_ros2_ws/src/mtc_tutorial/src/mtc_node.cpp:20[m[K:
+[4.149s] [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+[4.149s]    35 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead
+[4.149s]       |  [01;35m[K^~~~~~~[m[K
+[9.825s] [01m[K/home/developer/new_ros2_ws/src/mtc_tutorial/src/mtc_node.cpp:41:3:[m[K [01;31m[Kerror: [m[Knon-static data member declared with placeholder ‘[01m[Kauto[m[K’
+[9.825s]    41 |   [01;31m[Kauto[m[K rviz_gazebo_bridge = std::make_shared<RVizGazeboBridge>("panda");
+[9.825s]       |   [01;31m[K^~~~[m[K
+[13.081s] gmake[2]: *** [CMakeFiles/mtc_node.dir/build.make:76: CMakeFiles/mtc_node.dir/src/mtc_node.cpp.o] Error 1
+[13.081s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/mtc_node.dir/all] Error 2
+[13.081s] gmake: *** [Makefile:146: all] Error 2
+[13.084s] Invoked command in '/home/developer/new_ros2_ws/build/mtc_tutorial' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/developer/ws_moveit2/install/moveit_resources_pr2_description:/home/developer/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/developer/ws_moveit2/install/moveit_resources_fanuc_moveit_config:/home/developer/ws_moveit2/install/moveit_configs_utils:/home/developer/ws_moveit2/install/moveit_common:/home/developer/ros2_ws/install/rqt_joint_trajectory_controller:/home/developer/ros2_ws/install/rqt_controller_manager:/home/developer/ros2_ws/install/ros2controlcli:/home/developer/ros2_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --build /home/developer/new_ros2_ws/build/mtc_tutorial -- -j16 -l16

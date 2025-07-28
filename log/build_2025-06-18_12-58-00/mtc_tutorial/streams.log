@@ -1,0 +1,33 @@
+[0.046s] Invoking command in '/home/developer/new_ros2_ws/build/mtc_tutorial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/developer/ws_moveit2/install/moveit_resources_pr2_description:/home/developer/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/developer/ws_moveit2/install/moveit_resources_fanuc_moveit_config:/home/developer/ws_moveit2/install/moveit_configs_utils:/home/developer/ws_moveit2/install/moveit_common:/home/developer/ros2_ws/install/rqt_joint_trajectory_controller:/home/developer/ros2_ws/install/rqt_controller_manager:/home/developer/ros2_ws/install/ros2controlcli:/home/developer/ros2_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --build /home/developer/new_ros2_ws/build/mtc_tutorial -- -j16 -l16
+[0.199s] [35m[1mConsolidate compiler generated dependencies of target mtc_node[0m
+[0.256s] [ 25%] [32mBuilding CXX object CMakeFiles/novi_mtc_node.dir/src/novi_mtc_node.cpp.o[0m
+[0.277s] [ 75%] Built target mtc_node
+[11.237s] [100%] [32m[1mLinking CXX executable novi_mtc_node[0m
+[11.609s] [100%] Built target novi_mtc_node
+[11.636s] Invoked command in '/home/developer/new_ros2_ws/build/mtc_tutorial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/developer/ws_moveit2/install/moveit_resources_pr2_description:/home/developer/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/developer/ws_moveit2/install/moveit_resources_fanuc_moveit_config:/home/developer/ws_moveit2/install/moveit_configs_utils:/home/developer/ws_moveit2/install/moveit_common:/home/developer/ros2_ws/install/rqt_joint_trajectory_controller:/home/developer/ros2_ws/install/rqt_controller_manager:/home/developer/ros2_ws/install/ros2controlcli:/home/developer/ros2_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --build /home/developer/new_ros2_ws/build/mtc_tutorial -- -j16 -l16
+[11.638s] Invoking command in '/home/developer/new_ros2_ws/build/mtc_tutorial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/developer/ws_moveit2/install/moveit_resources_pr2_description:/home/developer/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/developer/ws_moveit2/install/moveit_resources_fanuc_moveit_config:/home/developer/ws_moveit2/install/moveit_configs_utils:/home/developer/ws_moveit2/install/moveit_common:/home/developer/ros2_ws/install/rqt_joint_trajectory_controller:/home/developer/ros2_ws/install/rqt_controller_manager:/home/developer/ros2_ws/install/ros2controlcli:/home/developer/ros2_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --install /home/developer/new_ros2_ws/build/mtc_tutorial
+[11.660s] -- Install configuration: "Release"
+[11.661s] -- Execute custom install script
+[11.662s] -- Up-to-date symlink: /home/developer/new_ros2_ws/install/mtc_tutorial/lib/mtc_tutorial/novi_mtc_node
+[11.662s] -- Up-to-date symlink: /home/developer/new_ros2_ws/install/mtc_tutorial/lib/mtc_tutorial/mtc_node
+[11.662s] -- Up-to-date symlink: /home/developer/new_ros2_ws/install/mtc_tutorial/share/mtc_tutorial/launch/demo_pick.launch.py
+[11.662s] -- Up-to-date symlink: /home/developer/new_ros2_ws/install/mtc_tutorial/share/mtc_tutorial/launch/mtc_gazebo.launch.py
+[11.662s] -- Up-to-date symlink: /home/developer/new_ros2_ws/install/mtc_tutorial/share/mtc_tutorial/launch/panda.launch.py
+[11.663s] -- Up-to-date symlink: /home/developer/new_ros2_ws/install/mtc_tutorial/share/mtc_tutorial/launch/pick_and_place_baxter.launch.py
+[11.663s] -- Up-to-date symlink: /home/developer/new_ros2_ws/install/mtc_tutorial/share/mtc_tutorial/launch/pick_place_demo.launch.py
+[11.663s] -- Up-to-date symlink: /home/developer/new_ros2_ws/install/mtc_tutorial/share/ament_index/resource_index/package_run_dependencies/mtc_tutorial
+[11.663s] -- Up-to-date symlink: /home/developer/new_ros2_ws/install/mtc_tutorial/share/ament_index/resource_index/parent_prefix_path/mtc_tutorial
+[11.663s] -- Up-to-date symlink: /home/developer/new_ros2_ws/install/mtc_tutorial/share/mtc_tutorial/environment/ament_prefix_path.sh
+[11.663s] -- Up-to-date symlink: /home/developer/new_ros2_ws/install/mtc_tutorial/share/mtc_tutorial/environment/ament_prefix_path.dsv
+[11.664s] -- Up-to-date symlink: /home/developer/new_ros2_ws/install/mtc_tutorial/share/mtc_tutorial/environment/path.sh
+[11.664s] -- Up-to-date symlink: /home/developer/new_ros2_ws/install/mtc_tutorial/share/mtc_tutorial/environment/path.dsv
+[11.664s] -- Up-to-date symlink: /home/developer/new_ros2_ws/install/mtc_tutorial/share/mtc_tutorial/local_setup.bash
+[11.664s] -- Up-to-date symlink: /home/developer/new_ros2_ws/install/mtc_tutorial/share/mtc_tutorial/local_setup.sh
+[11.664s] -- Up-to-date symlink: /home/developer/new_ros2_ws/install/mtc_tutorial/share/mtc_tutorial/local_setup.zsh
+[11.664s] -- Up-to-date symlink: /home/developer/new_ros2_ws/install/mtc_tutorial/share/mtc_tutorial/local_setup.dsv
+[11.664s] -- Symlinking: /home/developer/new_ros2_ws/install/mtc_tutorial/share/mtc_tutorial/package.dsv
+[11.689s] -- Up-to-date symlink: /home/developer/new_ros2_ws/install/mtc_tutorial/share/ament_index/resource_index/packages/mtc_tutorial
+[11.689s] -- Up-to-date symlink: /home/developer/new_ros2_ws/install/mtc_tutorial/share/mtc_tutorial/cmake/mtc_tutorialConfig.cmake
+[11.689s] -- Up-to-date symlink: /home/developer/new_ros2_ws/install/mtc_tutorial/share/mtc_tutorial/cmake/mtc_tutorialConfig-version.cmake
+[11.689s] -- Up-to-date symlink: /home/developer/new_ros2_ws/install/mtc_tutorial/share/mtc_tutorial/package.xml
+[11.692s] Invoked command in '/home/developer/new_ros2_ws/build/mtc_tutorial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/developer/ws_moveit2/install/moveit_resources_pr2_description:/home/developer/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/developer/ws_moveit2/install/moveit_resources_fanuc_moveit_config:/home/developer/ws_moveit2/install/moveit_configs_utils:/home/developer/ws_moveit2/install/moveit_common:/home/developer/ros2_ws/install/rqt_joint_trajectory_controller:/home/developer/ros2_ws/install/rqt_controller_manager:/home/developer/ros2_ws/install/ros2controlcli:/home/developer/ros2_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --install /home/developer/new_ros2_ws/build/mtc_tutorial

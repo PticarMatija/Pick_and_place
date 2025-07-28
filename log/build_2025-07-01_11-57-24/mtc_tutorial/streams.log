@@ -1,0 +1,51 @@
+[0.071s] Invoking command in '/home/developer/new_ros2_ws/build/mtc_tutorial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/developer/ws_moveit2/install/moveit_resources_pr2_description:/home/developer/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/developer/ws_moveit2/install/moveit_resources_fanuc_moveit_config:/home/developer/ws_moveit2/install/moveit_configs_utils:/home/developer/ws_moveit2/install/moveit_common:/home/developer/ros2_ws/install/rqt_joint_trajectory_controller:/home/developer/ros2_ws/install/rqt_controller_manager:/home/developer/ros2_ws/install/ros2controlcli:/home/developer/ros2_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --build /home/developer/new_ros2_ws/build/mtc_tutorial -- -j16 -l16
+[0.215s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.526s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.538s] -- Found moveit_task_constructor_core: 0.1.3 (/home/developer/ws_moveit2/install/moveit_task_constructor_core/share/moveit_task_constructor_core/cmake)
+[0.612s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.616s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.626s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.660s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.691s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.805s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[0.917s] -- Found parameter_traits: 0.4.0 (/opt/ros/humble/share/parameter_traits/cmake)
+[0.972s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.984s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[1.025s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.105s] -- Found rclcpp_lifecycle: 16.0.12 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[1.152s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[1.318s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[1.423s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.888s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[1.934s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+[1.962s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+[2.022s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+[2.184s] -- Found rviz_gazebo_bridge: 0.0.0 (/home/developer/baxter_ws/install/rviz_gazebo_bridge/share/rviz_gazebo_bridge/cmake)
+[2.210s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.389s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.389s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/developer/new_ros2_ws/src/mtc_tutorial/include>
+[2.389s] -- Configured cppcheck exclude dirs and/or files: 
+[2.390s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.391s] -- Added test 'lint_cmake' to check CMake code style
+[2.392s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.395s] -- Added test 'uncrustify' to check C / C++ code style
+[2.395s] -- Configured uncrustify additional arguments: 
+[2.396s] -- Added test 'xmllint' to check XML markup files
+[2.399s] -- Configuring done
+[2.571s] -- Generating done
+[2.596s] -- Build files have been written to: /home/developer/new_ros2_ws/build/mtc_tutorial
+[2.739s] [35m[1mConsolidate compiler generated dependencies of target novi_mtc_node[0m
+[2.750s] [35m[1mConsolidate compiler generated dependencies of target mtc_node[0m
+[2.862s] [ 25%] [32mBuilding CXX object CMakeFiles/novi_mtc_node.dir/src/novi_mtc_node.cpp.o[0m
+[2.871s] [ 50%] [32mBuilding CXX object CMakeFiles/mtc_node.dir/src/mtc_node.cpp.o[0m
+[5.772s] [01m[K/home/developer/new_ros2_ws/src/mtc_tutorial/src/mtc_node.cpp:20:10:[m[K [01;31m[Kfatal error: [m[Krviz_gazebo_bridge/rviz_gazebo_bridge.h: No such file or directory
+[5.772s]    20 | #include [01;31m[K"rviz_gazebo_bridge/rviz_gazebo_bridge.h"[m[K
+[5.773s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.773s] compilation terminated.
+[5.799s] gmake[2]: *** [CMakeFiles/mtc_node.dir/build.make:76: CMakeFiles/mtc_node.dir/src/mtc_node.cpp.o] Error 1
+[5.800s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/mtc_node.dir/all] Error 2
+[5.800s] gmake[1]: *** Waiting for unfinished jobs....
+[15.717s] [ 75%] [32m[1mLinking CXX executable novi_mtc_node[0m
+[16.149s] [ 75%] Built target novi_mtc_node
+[16.151s] gmake: *** [Makefile:146: all] Error 2
+[16.153s] Invoked command in '/home/developer/new_ros2_ws/build/mtc_tutorial' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/developer/ws_moveit2/install/moveit_resources_pr2_description:/home/developer/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/developer/ws_moveit2/install/moveit_resources_fanuc_moveit_config:/home/developer/ws_moveit2/install/moveit_configs_utils:/home/developer/ws_moveit2/install/moveit_common:/home/developer/ros2_ws/install/rqt_joint_trajectory_controller:/home/developer/ros2_ws/install/rqt_controller_manager:/home/developer/ros2_ws/install/ros2controlcli:/home/developer/ros2_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --build /home/developer/new_ros2_ws/build/mtc_tutorial -- -j16 -l16

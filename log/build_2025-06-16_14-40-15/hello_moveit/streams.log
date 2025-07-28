@@ -1,0 +1,76 @@
+[0.053s] Invoking command in '/home/developer/new_ros2_ws/build/hello_moveit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/developer/ws_moveit2/install/moveit_configs_utils:/home/developer/ros2_ws/install/rqt_joint_trajectory_controller:/home/developer/ros2_ws/install/rqt_controller_manager:/home/developer/ros2_ws/install/ros2controlcli:/home/developer/ros2_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake /home/developer/new_ros2_ws/src/hello_moveit -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/developer/new_ros2_ws/install/hello_moveit
+[0.091s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.295s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.320s] -- Found moveit_ros_planning_interface: 2.5.7 (/home/developer/ws_moveit2/install/moveit_ros_planning_interface/share/moveit_ros_planning_interface/cmake)
+[0.334s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+[0.367s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.369s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.377s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.404s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.426s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.633s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[0.683s] -- Found parameter_traits: 0.4.0 (/opt/ros/humble/share/parameter_traits/cmake)
+[0.725s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.734s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.757s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.803s] -- Found rclcpp_lifecycle: 16.0.12 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[0.825s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[0.920s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[0.943s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.116s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[1.143s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+[1.174s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+[1.213s] -- Found moveit_visual_tools: 4.1.2 (/home/developer/ws_moveit2/install/moveit_visual_tools/share/moveit_visual_tools/cmake)
+[1.265s] -- Setting assimp_DIR to: '/opt/ros/humble/share/rviz_assimp_vendor/cmake/../../../opt/rviz_assimp_vendor/lib/cmake/assimp-4.1'
+[1.300s] -- Setting OGRE_DIR to: '/opt/ros/humble/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+[1.304s] -- Found OGRE
+[1.304s] --   static     : OFF
+[1.304s] --   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+[1.304s] --   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[1.304s] --   media      : /opt/ros/humble/opt/rviz_ogre_vendor/share/OGRE/Media
+[1.304s] -- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+[1.304s] -- OGRE_LIBRARY_DIRS: /opt/ros/humble/opt/rviz_ogre_vendor/lib
+[1.305s] -- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[1.305s] -- OGRE_PLUGIN_DIR: /opt/ros/humble/opt/rviz_ogre_vendor/lib/OGRE
+[1.308s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[1.308s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[1.309s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[1.309s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[1.527s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.614s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.614s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/developer/new_ros2_ws/src/hello_moveit/include>
+[1.614s] -- Configured cppcheck exclude dirs and/or files: 
+[1.615s] -- Added test 'lint_cmake' to check CMake code style
+[1.616s] -- Added test 'uncrustify' to check C / C++ code style
+[1.616s] -- Configured uncrustify additional arguments: 
+[1.616s] -- Added test 'xmllint' to check XML markup files
+[1.618s] -- Configuring done
+[1.674s] -- Generating done
+[1.684s] -- Build files have been written to: /home/developer/new_ros2_ws/build/hello_moveit
+[1.716s] Invoked command in '/home/developer/new_ros2_ws/build/hello_moveit' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/developer/ws_moveit2/install/moveit_configs_utils:/home/developer/ros2_ws/install/rqt_joint_trajectory_controller:/home/developer/ros2_ws/install/rqt_controller_manager:/home/developer/ros2_ws/install/ros2controlcli:/home/developer/ros2_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake /home/developer/new_ros2_ws/src/hello_moveit -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/developer/new_ros2_ws/install/hello_moveit
+[1.719s] Invoking command in '/home/developer/new_ros2_ws/build/hello_moveit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/developer/ws_moveit2/install/moveit_configs_utils:/home/developer/ros2_ws/install/rqt_joint_trajectory_controller:/home/developer/ros2_ws/install/rqt_controller_manager:/home/developer/ros2_ws/install/ros2controlcli:/home/developer/ros2_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --build /home/developer/new_ros2_ws/build/hello_moveit -- -j16 -l16
+[1.873s] [35m[1mConsolidate compiler generated dependencies of target hello_moveit[0m
+[1.954s] [ 50%] [32mBuilding CXX object CMakeFiles/hello_moveit.dir/src/hello_moveit.cpp.o[0m
+[15.397s] [100%] [32m[1mLinking CXX executable hello_moveit[0m
+[16.052s] [100%] Built target hello_moveit
+[16.089s] Invoked command in '/home/developer/new_ros2_ws/build/hello_moveit' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/developer/ws_moveit2/install/moveit_configs_utils:/home/developer/ros2_ws/install/rqt_joint_trajectory_controller:/home/developer/ros2_ws/install/rqt_controller_manager:/home/developer/ros2_ws/install/ros2controlcli:/home/developer/ros2_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --build /home/developer/new_ros2_ws/build/hello_moveit -- -j16 -l16
+[16.092s] Invoking command in '/home/developer/new_ros2_ws/build/hello_moveit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/developer/ws_moveit2/install/moveit_configs_utils:/home/developer/ros2_ws/install/rqt_joint_trajectory_controller:/home/developer/ros2_ws/install/rqt_controller_manager:/home/developer/ros2_ws/install/ros2controlcli:/home/developer/ros2_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --install /home/developer/new_ros2_ws/build/hello_moveit
+[16.117s] -- Install configuration: "Release"
+[16.117s] -- Execute custom install script
+[16.117s] -- Symlinking: /home/developer/new_ros2_ws/install/hello_moveit/lib/hello_moveit/hello_moveit
+[16.147s] -- Symlinking: /home/developer/new_ros2_ws/install/hello_moveit/share/ament_index/resource_index/package_run_dependencies/hello_moveit
+[16.179s] -- Symlinking: /home/developer/new_ros2_ws/install/hello_moveit/share/ament_index/resource_index/parent_prefix_path/hello_moveit
+[16.206s] -- Symlinking: /home/developer/new_ros2_ws/install/hello_moveit/share/hello_moveit/environment/ament_prefix_path.sh
+[16.234s] -- Symlinking: /home/developer/new_ros2_ws/install/hello_moveit/share/hello_moveit/environment/ament_prefix_path.dsv
+[16.275s] -- Symlinking: /home/developer/new_ros2_ws/install/hello_moveit/share/hello_moveit/environment/path.sh
+[16.309s] -- Symlinking: /home/developer/new_ros2_ws/install/hello_moveit/share/hello_moveit/environment/path.dsv
+[16.333s] -- Symlinking: /home/developer/new_ros2_ws/install/hello_moveit/share/hello_moveit/local_setup.bash
+[16.366s] -- Symlinking: /home/developer/new_ros2_ws/install/hello_moveit/share/hello_moveit/local_setup.sh
+[16.390s] -- Symlinking: /home/developer/new_ros2_ws/install/hello_moveit/share/hello_moveit/local_setup.zsh
+[16.414s] -- Symlinking: /home/developer/new_ros2_ws/install/hello_moveit/share/hello_moveit/local_setup.dsv
+[16.439s] -- Symlinking: /home/developer/new_ros2_ws/install/hello_moveit/share/hello_moveit/package.dsv
+[16.470s] -- Symlinking: /home/developer/new_ros2_ws/install/hello_moveit/share/ament_index/resource_index/packages/hello_moveit
+[16.497s] -- Symlinking: /home/developer/new_ros2_ws/install/hello_moveit/share/hello_moveit/cmake/hello_moveitConfig.cmake
+[16.523s] -- Symlinking: /home/developer/new_ros2_ws/install/hello_moveit/share/hello_moveit/cmake/hello_moveitConfig-version.cmake
+[16.552s] -- Symlinking: /home/developer/new_ros2_ws/install/hello_moveit/share/hello_moveit/package.xml
+[16.583s] Invoked command in '/home/developer/new_ros2_ws/build/hello_moveit' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/developer/ws_moveit2/install/moveit_configs_utils:/home/developer/ros2_ws/install/rqt_joint_trajectory_controller:/home/developer/ros2_ws/install/rqt_controller_manager:/home/developer/ros2_ws/install/ros2controlcli:/home/developer/ros2_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --install /home/developer/new_ros2_ws/build/hello_moveit

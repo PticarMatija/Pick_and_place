@@ -1,0 +1,1 @@
+/home/developer/new_ros2_ws/build/hello_moveit/ament_cmake_environment_hooks/local_setup.bash

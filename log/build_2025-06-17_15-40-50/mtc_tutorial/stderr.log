@@ -1,0 +1,46 @@
+[01m[K/home/developer/new_ros2_ws/src/mtc_tutorial/src/novi_mtc_node.cpp:[m[K In member function ‘[01m[Kvoid MTCTaskNode::setupPlanningScene()[m[K’:
+[01m[K/home/developer/new_ros2_ws/src/mtc_tutorial/src/novi_mtc_node.cpp:87:53:[m[K [01;31m[Kerror: [m[K‘[01m[Ksrv[m[K’ is not a member of ‘[01m[Kmoveit_msgs[m[K’
+   87 |     auto client = node_->create_client<moveit_msgs::[01;31m[Ksrv[m[K::ApplyPlanningScene>("/apply_planning_scene");
+      |                                                     [01;31m[K^~~[m[K
+[01m[K/home/developer/new_ros2_ws/src/mtc_tutorial/src/novi_mtc_node.cpp:87:53:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+In file included from [01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/describe_parameters.hpp:7[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_client.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:159[m[K,
+                 from [01m[K/home/developer/new_ros2_ws/src/mtc_tutorial/src/novi_mtc_node.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__struct.hpp:27:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Krcl_interfaces::srv[m[K’
+   27 | namespace [01;36m[Ksrv[m[K
+      |           [01;36m[K^~~[m[K
+In file included from [01m[K/home/developer/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/srv/get_solution.hpp:7[m[K,
+                 from [01m[K/home/developer/ws_moveit2/install/moveit_task_constructor_core/include/moveit/task_constructor/introspection.h:45[m[K,
+                 from [01m[K/home/developer/ws_moveit2/install/moveit_task_constructor_core/include/moveit/task_constructor/task.h:44[m[K,
+                 from [01m[K/home/developer/new_ros2_ws/src/mtc_tutorial/src/novi_mtc_node.cpp:6[m[K:
+[01m[K/home/developer/ws_moveit2/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/srv/detail/get_solution__struct.hpp:27:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kmoveit_task_constructor_msgs::srv[m[K’
+   27 | namespace [01;36m[Ksrv[m[K
+      |           [01;36m[K^~~[m[K
+In file included from [01m[K/opt/ros/humble/include/tf2_msgs/tf2_msgs/srv/frame_graph.hpp:7[m[K,
+                 from [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer.h:49[m[K,
+                 from [01m[K/opt/ros/humble/include/tf2_eigen/tf2_eigen/tf2_eigen.hpp:42[m[K,
+                 from [01m[K/home/developer/new_ros2_ws/src/mtc_tutorial/src/novi_mtc_node.cpp:15[m[K:
+[01m[K/opt/ros/humble/include/tf2_msgs/tf2_msgs/srv/detail/frame_graph__struct.hpp:27:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Ktf2_msgs::srv[m[K’
+   27 | namespace [01;36m[Ksrv[m[K
+      |           [01;36m[K^~~[m[K
+[01m[K/home/developer/new_ros2_ws/src/mtc_tutorial/src/novi_mtc_node.cpp:87:26:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+   87 |     auto client = node_->[01;31m[Kcreate_client<moveit_msgs::srv::ApplyPlanningScene>[m[K("/apply_planning_scene");
+      |                          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/developer/new_ros2_ws/src/mtc_tutorial/src/novi_mtc_node.cpp:87:77:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::Node::create_client<<expression error> >(const char [22])[m[K’
+   87 |     auto client = [01;31m[Knode_->create_client<moveit_msgs::srv::ApplyPlanningScene>("/apply_planning_scene")[m[K;
+      |                   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/developer/new_ros2_ws/src/mtc_tutorial/src/novi_mtc_node.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:252:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ServiceT> typename rclcpp::Client<ServiceT>::SharedPtr rclcpp::Node::create_client(const string&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr)[m[K’
+  252 |   [01;36m[Kcreate_client[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:252:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/developer/new_ros2_ws/src/mtc_tutorial/src/novi_mtc_node.cpp:87:77:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   87 |     auto client = [01;31m[Knode_->create_client<moveit_msgs::srv::ApplyPlanningScene>("/apply_planning_scene")[m[K;
+      |                   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/novi_mtc_node.dir/build.make:76: CMakeFiles/novi_mtc_node.dir/src/novi_mtc_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/novi_mtc_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

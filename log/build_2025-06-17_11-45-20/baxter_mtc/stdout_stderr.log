@@ -1,0 +1,20 @@
+[100%] Built target baxter_mtc_node
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Up-to-date symlink: /home/developer/new_ros2_ws/install/baxter_mtc/share/baxter_mtc/launch/baxter_launch.py
+-- Up-to-date symlink: /home/developer/new_ros2_ws/install/baxter_mtc/lib/baxter_mtc/baxter_mtc_node
+-- Up-to-date symlink: /home/developer/new_ros2_ws/install/baxter_mtc/share/ament_index/resource_index/package_run_dependencies/baxter_mtc
+-- Up-to-date symlink: /home/developer/new_ros2_ws/install/baxter_mtc/share/ament_index/resource_index/parent_prefix_path/baxter_mtc
+-- Up-to-date symlink: /home/developer/new_ros2_ws/install/baxter_mtc/share/baxter_mtc/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/developer/new_ros2_ws/install/baxter_mtc/share/baxter_mtc/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/developer/new_ros2_ws/install/baxter_mtc/share/baxter_mtc/environment/path.sh
+-- Up-to-date symlink: /home/developer/new_ros2_ws/install/baxter_mtc/share/baxter_mtc/environment/path.dsv
+-- Up-to-date symlink: /home/developer/new_ros2_ws/install/baxter_mtc/share/baxter_mtc/local_setup.bash
+-- Up-to-date symlink: /home/developer/new_ros2_ws/install/baxter_mtc/share/baxter_mtc/local_setup.sh
+-- Up-to-date symlink: /home/developer/new_ros2_ws/install/baxter_mtc/share/baxter_mtc/local_setup.zsh
+-- Up-to-date symlink: /home/developer/new_ros2_ws/install/baxter_mtc/share/baxter_mtc/local_setup.dsv
+-- Symlinking: /home/developer/new_ros2_ws/install/baxter_mtc/share/baxter_mtc/package.dsv
+-- Up-to-date symlink: /home/developer/new_ros2_ws/install/baxter_mtc/share/ament_index/resource_index/packages/baxter_mtc
+-- Up-to-date symlink: /home/developer/new_ros2_ws/install/baxter_mtc/share/baxter_mtc/cmake/baxter_mtcConfig.cmake
+-- Up-to-date symlink: /home/developer/new_ros2_ws/install/baxter_mtc/share/baxter_mtc/cmake/baxter_mtcConfig-version.cmake
+-- Up-to-date symlink: /home/developer/new_ros2_ws/install/baxter_mtc/share/baxter_mtc/package.xml

@@ -1,0 +1,12 @@
+[0.079s] Invoking command in '/home/developer/new_ros2_ws/build/mtc_tutorial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/developer/ws_moveit2/install/moveit_resources_pr2_description:/home/developer/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/developer/ws_moveit2/install/moveit_resources_fanuc_moveit_config:/home/developer/ws_moveit2/install/moveit_configs_utils:/home/developer/ws_moveit2/install/moveit_common:/home/developer/ros2_ws/install/rqt_joint_trajectory_controller:/home/developer/ros2_ws/install/rqt_controller_manager:/home/developer/ros2_ws/install/ros2controlcli:/home/developer/ros2_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --build /home/developer/new_ros2_ws/build/mtc_tutorial -- -j16 -l16
+[0.360s] [35m[1mConsolidate compiler generated dependencies of target novi_mtc_node[0m
+[0.450s] [ 25%] [32mBuilding CXX object CMakeFiles/mtc_node.dir/src/mtc_node.cpp.o[0m
+[0.481s] [ 75%] Built target novi_mtc_node
+[3.673s] [01m[K/home/developer/new_ros2_ws/src/mtc_tutorial/src/mtc_node.cpp:20:10:[m[K [01;31m[Kfatal error: [m[Krviz_gazebo_bridge/rviz_gazebo_bridge.h: No such file or directory
+[3.673s]    20 | #include [01;31m[K"rviz_gazebo_bridge/rviz_gazebo_bridge.h"[m[K
+[3.673s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.673s] compilation terminated.
+[3.691s] gmake[2]: *** [CMakeFiles/mtc_node.dir/build.make:76: CMakeFiles/mtc_node.dir/src/mtc_node.cpp.o] Error 1
+[3.691s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/mtc_node.dir/all] Error 2
+[3.692s] gmake: *** [Makefile:146: all] Error 2
+[3.696s] Invoked command in '/home/developer/new_ros2_ws/build/mtc_tutorial' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/developer/ws_moveit2/install/moveit_resources_pr2_description:/home/developer/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/developer/ws_moveit2/install/moveit_resources_fanuc_moveit_config:/home/developer/ws_moveit2/install/moveit_configs_utils:/home/developer/ws_moveit2/install/moveit_common:/home/developer/ros2_ws/install/rqt_joint_trajectory_controller:/home/developer/ros2_ws/install/rqt_controller_manager:/home/developer/ros2_ws/install/ros2controlcli:/home/developer/ros2_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --build /home/developer/new_ros2_ws/build/mtc_tutorial -- -j16 -l16

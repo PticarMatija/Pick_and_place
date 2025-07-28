@@ -1,0 +1,11 @@
+[0.000000] (-) TimerEvent: {}
+[0.000270] (baxter_mtc) JobQueued: {'identifier': 'baxter_mtc', 'dependencies': OrderedDict()}
+[0.000349] (hello_moveit) JobQueued: {'identifier': 'hello_moveit', 'dependencies': OrderedDict()}
+[0.000384] (mtc_tutorial) JobQueued: {'identifier': 'mtc_tutorial', 'dependencies': OrderedDict()}
+[0.000413] (baxter_mtc) JobStarted: {'identifier': 'baxter_mtc'}
+[0.036922] (hello_moveit) JobStarted: {'identifier': 'hello_moveit'}
+[0.045807] (hello_moveit) JobEnded: {'identifier': 'hello_moveit', 'rc': 0}
+[0.046688] (mtc_tutorial) JobStarted: {'identifier': 'mtc_tutorial'}
+[0.080193] (baxter_mtc) JobEnded: {'identifier': 'baxter_mtc', 'rc': 'SIGINT'}
+[0.081342] (mtc_tutorial) JobEnded: {'identifier': 'mtc_tutorial', 'rc': 'SIGINT'}
+[0.091766] (-) EventReactorShutdown: {}

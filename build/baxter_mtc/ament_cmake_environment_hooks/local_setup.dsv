@@ -1,0 +1,2 @@
+source;share/baxter_mtc/environment/ament_prefix_path.sh
+source;share/baxter_mtc/environment/path.sh

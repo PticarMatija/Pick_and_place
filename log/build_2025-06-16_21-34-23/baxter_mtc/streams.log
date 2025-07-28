@@ -1,0 +1,24 @@
+[0.075s] Invoking command in '/home/developer/new_ros2_ws/build/baxter_mtc': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/developer/ws_moveit2/install/moveit_configs_utils:/home/developer/ros2_ws/install/rqt_joint_trajectory_controller:/home/developer/ros2_ws/install/rqt_controller_manager:/home/developer/ros2_ws/install/ros2controlcli:/home/developer/ros2_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --build /home/developer/new_ros2_ws/build/baxter_mtc -- -j16 -l16
+[0.302s] [100%] Built target baxter_mtc_node
+[0.345s] Invoked command in '/home/developer/new_ros2_ws/build/baxter_mtc' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/developer/ws_moveit2/install/moveit_configs_utils:/home/developer/ros2_ws/install/rqt_joint_trajectory_controller:/home/developer/ros2_ws/install/rqt_controller_manager:/home/developer/ros2_ws/install/ros2controlcli:/home/developer/ros2_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --build /home/developer/new_ros2_ws/build/baxter_mtc -- -j16 -l16
+[0.375s] Invoking command in '/home/developer/new_ros2_ws/build/baxter_mtc': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/developer/ws_moveit2/install/moveit_configs_utils:/home/developer/ros2_ws/install/rqt_joint_trajectory_controller:/home/developer/ros2_ws/install/rqt_controller_manager:/home/developer/ros2_ws/install/ros2controlcli:/home/developer/ros2_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --install /home/developer/new_ros2_ws/build/baxter_mtc
+[0.401s] -- Install configuration: "Release"
+[0.402s] -- Execute custom install script
+[0.402s] -- Up-to-date symlink: /home/developer/new_ros2_ws/install/baxter_mtc/share/baxter_mtc/launch/baxter_launch.py
+[0.402s] -- Up-to-date symlink: /home/developer/new_ros2_ws/install/baxter_mtc/lib/baxter_mtc/baxter_mtc_node
+[0.402s] -- Up-to-date symlink: /home/developer/new_ros2_ws/install/baxter_mtc/share/ament_index/resource_index/package_run_dependencies/baxter_mtc
+[0.403s] -- Up-to-date symlink: /home/developer/new_ros2_ws/install/baxter_mtc/share/ament_index/resource_index/parent_prefix_path/baxter_mtc
+[0.403s] -- Up-to-date symlink: /home/developer/new_ros2_ws/install/baxter_mtc/share/baxter_mtc/environment/ament_prefix_path.sh
+[0.403s] -- Up-to-date symlink: /home/developer/new_ros2_ws/install/baxter_mtc/share/baxter_mtc/environment/ament_prefix_path.dsv
+[0.404s] -- Up-to-date symlink: /home/developer/new_ros2_ws/install/baxter_mtc/share/baxter_mtc/environment/path.sh
+[0.404s] -- Up-to-date symlink: /home/developer/new_ros2_ws/install/baxter_mtc/share/baxter_mtc/environment/path.dsv
+[0.404s] -- Up-to-date symlink: /home/developer/new_ros2_ws/install/baxter_mtc/share/baxter_mtc/local_setup.bash
+[0.405s] -- Up-to-date symlink: /home/developer/new_ros2_ws/install/baxter_mtc/share/baxter_mtc/local_setup.sh
+[0.405s] -- Up-to-date symlink: /home/developer/new_ros2_ws/install/baxter_mtc/share/baxter_mtc/local_setup.zsh
+[0.405s] -- Up-to-date symlink: /home/developer/new_ros2_ws/install/baxter_mtc/share/baxter_mtc/local_setup.dsv
+[0.405s] -- Symlinking: /home/developer/new_ros2_ws/install/baxter_mtc/share/baxter_mtc/package.dsv
+[0.435s] -- Up-to-date symlink: /home/developer/new_ros2_ws/install/baxter_mtc/share/ament_index/resource_index/packages/baxter_mtc
+[0.435s] -- Up-to-date symlink: /home/developer/new_ros2_ws/install/baxter_mtc/share/baxter_mtc/cmake/baxter_mtcConfig.cmake
+[0.435s] -- Up-to-date symlink: /home/developer/new_ros2_ws/install/baxter_mtc/share/baxter_mtc/cmake/baxter_mtcConfig-version.cmake
+[0.435s] -- Up-to-date symlink: /home/developer/new_ros2_ws/install/baxter_mtc/share/baxter_mtc/package.xml
+[0.438s] Invoked command in '/home/developer/new_ros2_ws/build/baxter_mtc' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/developer/ws_moveit2/install/moveit_configs_utils:/home/developer/ros2_ws/install/rqt_joint_trajectory_controller:/home/developer/ros2_ws/install/rqt_controller_manager:/home/developer/ros2_ws/install/ros2controlcli:/home/developer/ros2_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --install /home/developer/new_ros2_ws/build/baxter_mtc

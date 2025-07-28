@@ -1,0 +1,11 @@
+[01m[K/home/developer/new_ros2_ws/src/mtc_tutorial/src/novi_mtc_node.cpp:275:13:[m[K [01;35m[Kwarning: [m[K"/*" within comment [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcomment-Wcomment]8;;[m[K]
+  275 |             /* target_pose_msg.pose.position.x = 0.7; */
+      |              
+[01m[K/home/developer/new_ros2_ws/src/mtc_tutorial/src/novi_mtc_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/developer/new_ros2_ws/src/mtc_tutorial/src/novi_mtc_node.cpp:504:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass moveit::planning_interface::PlanningSceneInterface[m[K’ has no member named ‘[01m[KremoveAttachedObjects[m[K’; did you mean ‘[01m[KgetAttachedObjects[m[K’?
+  504 |     planning_scene_interface.[01;31m[KremoveAttachedObjects[m[K({"object"});
+      |                              [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+      |                              [32m[KgetAttachedObjects[m[K
+gmake[2]: *** [CMakeFiles/novi_mtc_node.dir/build.make:76: CMakeFiles/novi_mtc_node.dir/src/novi_mtc_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/novi_mtc_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

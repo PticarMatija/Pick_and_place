@@ -1,0 +1,275 @@
+[0.221s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--cmake-args', '-DCMAKE_BUILD_TYPE=Release', '--symlink-install']
+[0.221s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=['-DCMAKE_BUILD_TYPE=Release'], cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x79bf59a2c8b0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x79bf599f7e20>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x79bf599f7e20>>, mixin_verb=('build',))
+[0.565s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.566s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.566s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.566s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.566s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.566s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.566s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/developer/new_ros2_ws'
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.567s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.567s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.567s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.567s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.567s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.567s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.567s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.586s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.586s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.586s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.586s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.586s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.586s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.586s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.588s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.588s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.588s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.588s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.588s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.588s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.588s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.588s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.588s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.588s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.588s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.589s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.589s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.589s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.589s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.589s] Level 1:colcon.colcon_core.package_identification:_identify(src/baxter_mtc) by extensions ['ignore', 'ignore_ament_install']
+[0.589s] Level 1:colcon.colcon_core.package_identification:_identify(src/baxter_mtc) by extension 'ignore'
+[0.589s] Level 1:colcon.colcon_core.package_identification:_identify(src/baxter_mtc) by extension 'ignore_ament_install'
+[0.589s] Level 1:colcon.colcon_core.package_identification:_identify(src/baxter_mtc) by extensions ['colcon_pkg']
+[0.589s] Level 1:colcon.colcon_core.package_identification:_identify(src/baxter_mtc) by extension 'colcon_pkg'
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(src/baxter_mtc) by extensions ['colcon_meta']
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(src/baxter_mtc) by extension 'colcon_meta'
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(src/baxter_mtc) by extensions ['ros']
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(src/baxter_mtc) by extension 'ros'
+[0.596s] DEBUG:colcon.colcon_core.package_identification:Package 'src/baxter_mtc' with type 'ros.ament_cmake' and name 'baxter_mtc'
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(src/hello_moveit) by extensions ['ignore', 'ignore_ament_install']
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(src/hello_moveit) by extension 'ignore'
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(src/hello_moveit) by extension 'ignore_ament_install'
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(src/hello_moveit) by extensions ['colcon_pkg']
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(src/hello_moveit) by extension 'colcon_pkg'
+[0.597s] Level 1:colcon.colcon_core.package_identification:_identify(src/hello_moveit) by extensions ['colcon_meta']
+[0.597s] Level 1:colcon.colcon_core.package_identification:_identify(src/hello_moveit) by extension 'colcon_meta'
+[0.597s] Level 1:colcon.colcon_core.package_identification:_identify(src/hello_moveit) by extensions ['ros']
+[0.597s] Level 1:colcon.colcon_core.package_identification:_identify(src/hello_moveit) by extension 'ros'
+[0.598s] DEBUG:colcon.colcon_core.package_identification:Package 'src/hello_moveit' with type 'ros.ament_cmake' and name 'hello_moveit'
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(src/mtc_tutorial) by extensions ['ignore', 'ignore_ament_install']
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(src/mtc_tutorial) by extension 'ignore'
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(src/mtc_tutorial) by extension 'ignore_ament_install'
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(src/mtc_tutorial) by extensions ['colcon_pkg']
+[0.599s] Level 1:colcon.colcon_core.package_identification:_identify(src/mtc_tutorial) by extension 'colcon_pkg'
+[0.599s] Level 1:colcon.colcon_core.package_identification:_identify(src/mtc_tutorial) by extensions ['colcon_meta']
+[0.599s] Level 1:colcon.colcon_core.package_identification:_identify(src/mtc_tutorial) by extension 'colcon_meta'
+[0.599s] Level 1:colcon.colcon_core.package_identification:_identify(src/mtc_tutorial) by extensions ['ros']
+[0.599s] Level 1:colcon.colcon_core.package_identification:_identify(src/mtc_tutorial) by extension 'ros'
+[0.600s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mtc_tutorial' with type 'ros.ament_cmake' and name 'mtc_tutorial'
+[0.600s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.600s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.600s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.600s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.600s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.656s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.656s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.672s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/developer/new_ros2_ws/install
+[0.673s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/developer/panda_ws/install
+[0.674s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 9 installed packages in /home/developer/baxter_ws/install
+[0.678s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 55 installed packages in /home/developer/ws_moveit2/install
+[0.684s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 62 installed packages in /home/developer/ros2_ws/install
+[0.688s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 354 installed packages in /opt/ros/humble
+[0.692s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.795s] Level 5:colcon.colcon_core.verb:set package 'baxter_mtc' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.796s] Level 5:colcon.colcon_core.verb:set package 'baxter_mtc' build argument 'cmake_target' from command line to 'None'
+[0.796s] Level 5:colcon.colcon_core.verb:set package 'baxter_mtc' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.796s] Level 5:colcon.colcon_core.verb:set package 'baxter_mtc' build argument 'cmake_clean_cache' from command line to 'False'
+[0.796s] Level 5:colcon.colcon_core.verb:set package 'baxter_mtc' build argument 'cmake_clean_first' from command line to 'False'
+[0.796s] Level 5:colcon.colcon_core.verb:set package 'baxter_mtc' build argument 'cmake_force_configure' from command line to 'False'
+[0.796s] Level 5:colcon.colcon_core.verb:set package 'baxter_mtc' build argument 'ament_cmake_args' from command line to 'None'
+[0.796s] Level 5:colcon.colcon_core.verb:set package 'baxter_mtc' build argument 'catkin_cmake_args' from command line to 'None'
+[0.796s] Level 5:colcon.colcon_core.verb:set package 'baxter_mtc' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.796s] DEBUG:colcon.colcon_core.verb:Building package 'baxter_mtc' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/developer/new_ros2_ws/build/baxter_mtc', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/developer/new_ros2_ws/install/baxter_mtc', 'merge_install': False, 'path': '/home/developer/new_ros2_ws/src/baxter_mtc', 'symlink_install': True, 'test_result_base': None}
+[0.797s] Level 5:colcon.colcon_core.verb:set package 'hello_moveit' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.797s] Level 5:colcon.colcon_core.verb:set package 'hello_moveit' build argument 'cmake_target' from command line to 'None'
+[0.797s] Level 5:colcon.colcon_core.verb:set package 'hello_moveit' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.797s] Level 5:colcon.colcon_core.verb:set package 'hello_moveit' build argument 'cmake_clean_cache' from command line to 'False'
+[0.797s] Level 5:colcon.colcon_core.verb:set package 'hello_moveit' build argument 'cmake_clean_first' from command line to 'False'
+[0.797s] Level 5:colcon.colcon_core.verb:set package 'hello_moveit' build argument 'cmake_force_configure' from command line to 'False'
+[0.797s] Level 5:colcon.colcon_core.verb:set package 'hello_moveit' build argument 'ament_cmake_args' from command line to 'None'
+[0.797s] Level 5:colcon.colcon_core.verb:set package 'hello_moveit' build argument 'catkin_cmake_args' from command line to 'None'
+[0.797s] Level 5:colcon.colcon_core.verb:set package 'hello_moveit' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.797s] DEBUG:colcon.colcon_core.verb:Building package 'hello_moveit' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/developer/new_ros2_ws/build/hello_moveit', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/developer/new_ros2_ws/install/hello_moveit', 'merge_install': False, 'path': '/home/developer/new_ros2_ws/src/hello_moveit', 'symlink_install': True, 'test_result_base': None}
+[0.798s] Level 5:colcon.colcon_core.verb:set package 'mtc_tutorial' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.798s] Level 5:colcon.colcon_core.verb:set package 'mtc_tutorial' build argument 'cmake_target' from command line to 'None'
+[0.798s] Level 5:colcon.colcon_core.verb:set package 'mtc_tutorial' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.798s] Level 5:colcon.colcon_core.verb:set package 'mtc_tutorial' build argument 'cmake_clean_cache' from command line to 'False'
+[0.798s] Level 5:colcon.colcon_core.verb:set package 'mtc_tutorial' build argument 'cmake_clean_first' from command line to 'False'
+[0.798s] Level 5:colcon.colcon_core.verb:set package 'mtc_tutorial' build argument 'cmake_force_configure' from command line to 'False'
+[0.798s] Level 5:colcon.colcon_core.verb:set package 'mtc_tutorial' build argument 'ament_cmake_args' from command line to 'None'
+[0.798s] Level 5:colcon.colcon_core.verb:set package 'mtc_tutorial' build argument 'catkin_cmake_args' from command line to 'None'
+[0.798s] Level 5:colcon.colcon_core.verb:set package 'mtc_tutorial' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.798s] DEBUG:colcon.colcon_core.verb:Building package 'mtc_tutorial' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/developer/new_ros2_ws/build/mtc_tutorial', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/developer/new_ros2_ws/install/mtc_tutorial', 'merge_install': False, 'path': '/home/developer/new_ros2_ws/src/mtc_tutorial', 'symlink_install': True, 'test_result_base': None}
+[0.799s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.800s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.800s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/developer/new_ros2_ws/src/baxter_mtc' with build type 'ament_cmake'
+[0.801s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/developer/new_ros2_ws/src/baxter_mtc'
+[0.805s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.805s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.805s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.839s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/developer/new_ros2_ws/src/hello_moveit' with build type 'ament_cmake'
+[0.840s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/developer/new_ros2_ws/src/hello_moveit'
+[0.840s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.840s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.873s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/developer/new_ros2_ws/src/mtc_tutorial' with build type 'ament_cmake'
+[0.874s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/developer/new_ros2_ws/src/mtc_tutorial'
+[0.874s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.874s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.920s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/developer/new_ros2_ws/build/baxter_mtc': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/developer/ws_moveit2/install/moveit_resources_pr2_description:/home/developer/ws_moveit2/install/moveit_resources_fanuc_moveit_config:/home/developer/ws_moveit2/install/moveit_configs_utils:/home/developer/ws_moveit2/install/moveit_common:/home/developer/ros2_ws/install/rqt_joint_trajectory_controller:/home/developer/ros2_ws/install/rqt_controller_manager:/home/developer/ros2_ws/install/ros2controlcli:/home/developer/ros2_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --build /home/developer/new_ros2_ws/build/baxter_mtc -- -j16 -l16
+[0.939s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/developer/new_ros2_ws/build/hello_moveit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/developer/ws_moveit2/install/moveit_resources_pr2_description:/home/developer/ws_moveit2/install/moveit_resources_fanuc_moveit_config:/home/developer/ws_moveit2/install/moveit_configs_utils:/home/developer/ws_moveit2/install/moveit_common:/home/developer/ros2_ws/install/rqt_joint_trajectory_controller:/home/developer/ros2_ws/install/rqt_controller_manager:/home/developer/ros2_ws/install/ros2controlcli:/home/developer/ros2_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --build /home/developer/new_ros2_ws/build/hello_moveit -- -j16 -l16
+[0.945s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/developer/new_ros2_ws/build/mtc_tutorial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/developer/ws_moveit2/install/moveit_resources_pr2_description:/home/developer/ws_moveit2/install/moveit_resources_fanuc_moveit_config:/home/developer/ws_moveit2/install/moveit_configs_utils:/home/developer/ws_moveit2/install/moveit_common:/home/developer/ros2_ws/install/rqt_joint_trajectory_controller:/home/developer/ros2_ws/install/rqt_controller_manager:/home/developer/ros2_ws/install/ros2controlcli:/home/developer/ros2_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --build /home/developer/new_ros2_ws/build/mtc_tutorial -- -j16 -l16
+[1.349s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/developer/new_ros2_ws/build/baxter_mtc' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/developer/ws_moveit2/install/moveit_resources_pr2_description:/home/developer/ws_moveit2/install/moveit_resources_fanuc_moveit_config:/home/developer/ws_moveit2/install/moveit_configs_utils:/home/developer/ws_moveit2/install/moveit_common:/home/developer/ros2_ws/install/rqt_joint_trajectory_controller:/home/developer/ros2_ws/install/rqt_controller_manager:/home/developer/ros2_ws/install/ros2controlcli:/home/developer/ros2_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --build /home/developer/new_ros2_ws/build/baxter_mtc -- -j16 -l16
+[1.402s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/developer/new_ros2_ws/build/baxter_mtc': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/developer/ws_moveit2/install/moveit_resources_pr2_description:/home/developer/ws_moveit2/install/moveit_resources_fanuc_moveit_config:/home/developer/ws_moveit2/install/moveit_configs_utils:/home/developer/ws_moveit2/install/moveit_common:/home/developer/ros2_ws/install/rqt_joint_trajectory_controller:/home/developer/ros2_ws/install/rqt_controller_manager:/home/developer/ros2_ws/install/ros2controlcli:/home/developer/ros2_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --install /home/developer/new_ros2_ws/build/baxter_mtc
+[1.404s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/developer/new_ros2_ws/build/hello_moveit' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/developer/ws_moveit2/install/moveit_resources_pr2_description:/home/developer/ws_moveit2/install/moveit_resources_fanuc_moveit_config:/home/developer/ws_moveit2/install/moveit_configs_utils:/home/developer/ws_moveit2/install/moveit_common:/home/developer/ros2_ws/install/rqt_joint_trajectory_controller:/home/developer/ros2_ws/install/rqt_controller_manager:/home/developer/ros2_ws/install/ros2controlcli:/home/developer/ros2_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --build /home/developer/new_ros2_ws/build/hello_moveit -- -j16 -l16
+[1.408s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/developer/new_ros2_ws/build/hello_moveit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/developer/ws_moveit2/install/moveit_resources_pr2_description:/home/developer/ws_moveit2/install/moveit_resources_fanuc_moveit_config:/home/developer/ws_moveit2/install/moveit_configs_utils:/home/developer/ws_moveit2/install/moveit_common:/home/developer/ros2_ws/install/rqt_joint_trajectory_controller:/home/developer/ros2_ws/install/rqt_controller_manager:/home/developer/ros2_ws/install/ros2controlcli:/home/developer/ros2_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --install /home/developer/new_ros2_ws/build/hello_moveit
+[1.514s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(baxter_mtc)
+[1.515s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/developer/new_ros2_ws/build/baxter_mtc' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/developer/ws_moveit2/install/moveit_resources_pr2_description:/home/developer/ws_moveit2/install/moveit_resources_fanuc_moveit_config:/home/developer/ws_moveit2/install/moveit_configs_utils:/home/developer/ws_moveit2/install/moveit_common:/home/developer/ros2_ws/install/rqt_joint_trajectory_controller:/home/developer/ros2_ws/install/rqt_controller_manager:/home/developer/ros2_ws/install/ros2controlcli:/home/developer/ros2_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --install /home/developer/new_ros2_ws/build/baxter_mtc
+[1.519s] Level 1:colcon.colcon_core.environment:checking '/home/developer/new_ros2_ws/install/baxter_mtc' for CMake module files
+[1.521s] Level 1:colcon.colcon_core.environment:checking '/home/developer/new_ros2_ws/install/baxter_mtc' for CMake config files
+[1.521s] Level 1:colcon.colcon_core.shell:create_environment_hook('baxter_mtc', 'cmake_prefix_path')
+[1.522s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/developer/new_ros2_ws/install/baxter_mtc/share/baxter_mtc/hook/cmake_prefix_path.ps1'
+[1.523s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/developer/new_ros2_ws/install/baxter_mtc/share/baxter_mtc/hook/cmake_prefix_path.dsv'
+[1.524s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/developer/new_ros2_ws/install/baxter_mtc/share/baxter_mtc/hook/cmake_prefix_path.sh'
+[1.526s] Level 1:colcon.colcon_core.environment:checking '/home/developer/new_ros2_ws/install/baxter_mtc/lib'
+[1.526s] Level 1:colcon.colcon_core.environment:checking '/home/developer/new_ros2_ws/install/baxter_mtc/bin'
+[1.526s] Level 1:colcon.colcon_core.environment:checking '/home/developer/new_ros2_ws/install/baxter_mtc/lib/pkgconfig/baxter_mtc.pc'
+[1.526s] Level 1:colcon.colcon_core.environment:checking '/home/developer/new_ros2_ws/install/baxter_mtc/lib/python3.10/site-packages'
+[1.527s] Level 1:colcon.colcon_core.environment:checking '/home/developer/new_ros2_ws/install/baxter_mtc/bin'
+[1.527s] INFO:colcon.colcon_core.shell:Creating package script '/home/developer/new_ros2_ws/install/baxter_mtc/share/baxter_mtc/package.ps1'
+[1.529s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/developer/new_ros2_ws/install/baxter_mtc/share/baxter_mtc/package.dsv'
+[1.530s] INFO:colcon.colcon_core.shell:Creating package script '/home/developer/new_ros2_ws/install/baxter_mtc/share/baxter_mtc/package.sh'
+[1.531s] INFO:colcon.colcon_core.shell:Creating package script '/home/developer/new_ros2_ws/install/baxter_mtc/share/baxter_mtc/package.bash'
+[1.533s] INFO:colcon.colcon_core.shell:Creating package script '/home/developer/new_ros2_ws/install/baxter_mtc/share/baxter_mtc/package.zsh'
+[1.534s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/developer/new_ros2_ws/install/baxter_mtc/share/colcon-core/packages/baxter_mtc)
+[1.535s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(baxter_mtc)
+[1.536s] Level 1:colcon.colcon_core.environment:checking '/home/developer/new_ros2_ws/install/baxter_mtc' for CMake module files
+[1.537s] Level 1:colcon.colcon_core.environment:checking '/home/developer/new_ros2_ws/install/baxter_mtc' for CMake config files
+[1.538s] Level 1:colcon.colcon_core.shell:create_environment_hook('baxter_mtc', 'cmake_prefix_path')
+[1.538s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/developer/new_ros2_ws/install/baxter_mtc/share/baxter_mtc/hook/cmake_prefix_path.ps1'
+[1.539s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/developer/new_ros2_ws/install/baxter_mtc/share/baxter_mtc/hook/cmake_prefix_path.dsv'
+[1.540s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/developer/new_ros2_ws/install/baxter_mtc/share/baxter_mtc/hook/cmake_prefix_path.sh'
+[1.541s] Level 1:colcon.colcon_core.environment:checking '/home/developer/new_ros2_ws/install/baxter_mtc/lib'
+[1.541s] Level 1:colcon.colcon_core.environment:checking '/home/developer/new_ros2_ws/install/baxter_mtc/bin'
+[1.541s] Level 1:colcon.colcon_core.environment:checking '/home/developer/new_ros2_ws/install/baxter_mtc/lib/pkgconfig/baxter_mtc.pc'
+[1.541s] Level 1:colcon.colcon_core.environment:checking '/home/developer/new_ros2_ws/install/baxter_mtc/lib/python3.10/site-packages'
+[1.542s] Level 1:colcon.colcon_core.environment:checking '/home/developer/new_ros2_ws/install/baxter_mtc/bin'
+[1.542s] INFO:colcon.colcon_core.shell:Creating package script '/home/developer/new_ros2_ws/install/baxter_mtc/share/baxter_mtc/package.ps1'
+[1.543s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/developer/new_ros2_ws/install/baxter_mtc/share/baxter_mtc/package.dsv'
+[1.544s] INFO:colcon.colcon_core.shell:Creating package script '/home/developer/new_ros2_ws/install/baxter_mtc/share/baxter_mtc/package.sh'
+[1.545s] INFO:colcon.colcon_core.shell:Creating package script '/home/developer/new_ros2_ws/install/baxter_mtc/share/baxter_mtc/package.bash'
+[1.546s] INFO:colcon.colcon_core.shell:Creating package script '/home/developer/new_ros2_ws/install/baxter_mtc/share/baxter_mtc/package.zsh'
+[1.547s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/developer/new_ros2_ws/install/baxter_mtc/share/colcon-core/packages/baxter_mtc)
+[1.549s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hello_moveit)
+[1.549s] Level 1:colcon.colcon_core.environment:checking '/home/developer/new_ros2_ws/install/hello_moveit' for CMake module files
+[1.550s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/developer/new_ros2_ws/build/hello_moveit' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/developer/ws_moveit2/install/moveit_resources_pr2_description:/home/developer/ws_moveit2/install/moveit_resources_fanuc_moveit_config:/home/developer/ws_moveit2/install/moveit_configs_utils:/home/developer/ws_moveit2/install/moveit_common:/home/developer/ros2_ws/install/rqt_joint_trajectory_controller:/home/developer/ros2_ws/install/rqt_controller_manager:/home/developer/ros2_ws/install/ros2controlcli:/home/developer/ros2_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --install /home/developer/new_ros2_ws/build/hello_moveit
+[1.551s] Level 1:colcon.colcon_core.environment:checking '/home/developer/new_ros2_ws/install/hello_moveit' for CMake config files
+[1.552s] Level 1:colcon.colcon_core.shell:create_environment_hook('hello_moveit', 'cmake_prefix_path')
+[1.552s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/developer/new_ros2_ws/install/hello_moveit/share/hello_moveit/hook/cmake_prefix_path.ps1'
+[1.553s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/developer/new_ros2_ws/install/hello_moveit/share/hello_moveit/hook/cmake_prefix_path.dsv'
+[1.553s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/developer/new_ros2_ws/install/hello_moveit/share/hello_moveit/hook/cmake_prefix_path.sh'
+[1.554s] Level 1:colcon.colcon_core.environment:checking '/home/developer/new_ros2_ws/install/hello_moveit/lib'
+[1.554s] Level 1:colcon.colcon_core.environment:checking '/home/developer/new_ros2_ws/install/hello_moveit/bin'
+[1.554s] Level 1:colcon.colcon_core.environment:checking '/home/developer/new_ros2_ws/install/hello_moveit/lib/pkgconfig/hello_moveit.pc'
+[1.555s] Level 1:colcon.colcon_core.environment:checking '/home/developer/new_ros2_ws/install/hello_moveit/lib/python3.10/site-packages'
+[1.555s] Level 1:colcon.colcon_core.environment:checking '/home/developer/new_ros2_ws/install/hello_moveit/bin'
+[1.556s] INFO:colcon.colcon_core.shell:Creating package script '/home/developer/new_ros2_ws/install/hello_moveit/share/hello_moveit/package.ps1'
+[1.556s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/developer/new_ros2_ws/install/hello_moveit/share/hello_moveit/package.dsv'
+[1.557s] INFO:colcon.colcon_core.shell:Creating package script '/home/developer/new_ros2_ws/install/hello_moveit/share/hello_moveit/package.sh'
+[1.558s] INFO:colcon.colcon_core.shell:Creating package script '/home/developer/new_ros2_ws/install/hello_moveit/share/hello_moveit/package.bash'
+[1.558s] INFO:colcon.colcon_core.shell:Creating package script '/home/developer/new_ros2_ws/install/hello_moveit/share/hello_moveit/package.zsh'
+[1.559s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/developer/new_ros2_ws/install/hello_moveit/share/colcon-core/packages/hello_moveit)
+[1.560s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hello_moveit)
+[1.561s] Level 1:colcon.colcon_core.environment:checking '/home/developer/new_ros2_ws/install/hello_moveit' for CMake module files
+[1.561s] Level 1:colcon.colcon_core.environment:checking '/home/developer/new_ros2_ws/install/hello_moveit' for CMake config files
+[1.562s] Level 1:colcon.colcon_core.shell:create_environment_hook('hello_moveit', 'cmake_prefix_path')
+[1.562s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/developer/new_ros2_ws/install/hello_moveit/share/hello_moveit/hook/cmake_prefix_path.ps1'
+[1.563s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/developer/new_ros2_ws/install/hello_moveit/share/hello_moveit/hook/cmake_prefix_path.dsv'
+[1.563s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/developer/new_ros2_ws/install/hello_moveit/share/hello_moveit/hook/cmake_prefix_path.sh'
+[1.564s] Level 1:colcon.colcon_core.environment:checking '/home/developer/new_ros2_ws/install/hello_moveit/lib'
+[1.565s] Level 1:colcon.colcon_core.environment:checking '/home/developer/new_ros2_ws/install/hello_moveit/bin'
+[1.565s] Level 1:colcon.colcon_core.environment:checking '/home/developer/new_ros2_ws/install/hello_moveit/lib/pkgconfig/hello_moveit.pc'
+[1.565s] Level 1:colcon.colcon_core.environment:checking '/home/developer/new_ros2_ws/install/hello_moveit/lib/python3.10/site-packages'
+[1.565s] Level 1:colcon.colcon_core.environment:checking '/home/developer/new_ros2_ws/install/hello_moveit/bin'
+[1.566s] INFO:colcon.colcon_core.shell:Creating package script '/home/developer/new_ros2_ws/install/hello_moveit/share/hello_moveit/package.ps1'
+[1.567s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/developer/new_ros2_ws/install/hello_moveit/share/hello_moveit/package.dsv'
+[1.568s] INFO:colcon.colcon_core.shell:Creating package script '/home/developer/new_ros2_ws/install/hello_moveit/share/hello_moveit/package.sh'
+[1.569s] INFO:colcon.colcon_core.shell:Creating package script '/home/developer/new_ros2_ws/install/hello_moveit/share/hello_moveit/package.bash'
+[1.569s] INFO:colcon.colcon_core.shell:Creating package script '/home/developer/new_ros2_ws/install/hello_moveit/share/hello_moveit/package.zsh'
+[1.570s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/developer/new_ros2_ws/install/hello_moveit/share/colcon-core/packages/hello_moveit)
+[20.030s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/developer/new_ros2_ws/build/mtc_tutorial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/developer/ws_moveit2/install/moveit_resources_pr2_description:/home/developer/ws_moveit2/install/moveit_resources_fanuc_moveit_config:/home/developer/ws_moveit2/install/moveit_configs_utils:/home/developer/ws_moveit2/install/moveit_common:/home/developer/ros2_ws/install/rqt_joint_trajectory_controller:/home/developer/ros2_ws/install/rqt_controller_manager:/home/developer/ros2_ws/install/ros2controlcli:/home/developer/ros2_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --build /home/developer/new_ros2_ws/build/mtc_tutorial -- -j16 -l16
+[20.032s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/developer/new_ros2_ws/build/mtc_tutorial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/developer/ws_moveit2/install/moveit_resources_pr2_description:/home/developer/ws_moveit2/install/moveit_resources_fanuc_moveit_config:/home/developer/ws_moveit2/install/moveit_configs_utils:/home/developer/ws_moveit2/install/moveit_common:/home/developer/ros2_ws/install/rqt_joint_trajectory_controller:/home/developer/ros2_ws/install/rqt_controller_manager:/home/developer/ros2_ws/install/ros2controlcli:/home/developer/ros2_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --install /home/developer/new_ros2_ws/build/mtc_tutorial
+[20.084s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mtc_tutorial)
+[20.085s] Level 1:colcon.colcon_core.environment:checking '/home/developer/new_ros2_ws/install/mtc_tutorial' for CMake module files
+[20.085s] Level 1:colcon.colcon_core.environment:checking '/home/developer/new_ros2_ws/install/mtc_tutorial' for CMake config files
+[20.086s] Level 1:colcon.colcon_core.shell:create_environment_hook('mtc_tutorial', 'cmake_prefix_path')
+[20.086s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/developer/new_ros2_ws/install/mtc_tutorial/share/mtc_tutorial/hook/cmake_prefix_path.ps1'
+[20.087s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/developer/new_ros2_ws/install/mtc_tutorial/share/mtc_tutorial/hook/cmake_prefix_path.dsv'
+[20.087s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/developer/new_ros2_ws/install/mtc_tutorial/share/mtc_tutorial/hook/cmake_prefix_path.sh'
+[20.088s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/developer/new_ros2_ws/build/mtc_tutorial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/developer/ws_moveit2/install/moveit_resources_pr2_description:/home/developer/ws_moveit2/install/moveit_resources_fanuc_moveit_config:/home/developer/ws_moveit2/install/moveit_configs_utils:/home/developer/ws_moveit2/install/moveit_common:/home/developer/ros2_ws/install/rqt_joint_trajectory_controller:/home/developer/ros2_ws/install/rqt_controller_manager:/home/developer/ros2_ws/install/ros2controlcli:/home/developer/ros2_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --install /home/developer/new_ros2_ws/build/mtc_tutorial
+[20.088s] Level 1:colcon.colcon_core.environment:checking '/home/developer/new_ros2_ws/install/mtc_tutorial/lib'
+[20.089s] Level 1:colcon.colcon_core.environment:checking '/home/developer/new_ros2_ws/install/mtc_tutorial/bin'
+[20.089s] Level 1:colcon.colcon_core.environment:checking '/home/developer/new_ros2_ws/install/mtc_tutorial/lib/pkgconfig/mtc_tutorial.pc'
+[20.089s] Level 1:colcon.colcon_core.environment:checking '/home/developer/new_ros2_ws/install/mtc_tutorial/lib/python3.10/site-packages'
+[20.089s] Level 1:colcon.colcon_core.environment:checking '/home/developer/new_ros2_ws/install/mtc_tutorial/bin'
+[20.089s] INFO:colcon.colcon_core.shell:Creating package script '/home/developer/new_ros2_ws/install/mtc_tutorial/share/mtc_tutorial/package.ps1'
+[20.090s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/developer/new_ros2_ws/install/mtc_tutorial/share/mtc_tutorial/package.dsv'
+[20.091s] INFO:colcon.colcon_core.shell:Creating package script '/home/developer/new_ros2_ws/install/mtc_tutorial/share/mtc_tutorial/package.sh'
+[20.091s] INFO:colcon.colcon_core.shell:Creating package script '/home/developer/new_ros2_ws/install/mtc_tutorial/share/mtc_tutorial/package.bash'
+[20.091s] INFO:colcon.colcon_core.shell:Creating package script '/home/developer/new_ros2_ws/install/mtc_tutorial/share/mtc_tutorial/package.zsh'
+[20.092s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/developer/new_ros2_ws/install/mtc_tutorial/share/colcon-core/packages/mtc_tutorial)
+[20.093s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mtc_tutorial)
+[20.093s] Level 1:colcon.colcon_core.environment:checking '/home/developer/new_ros2_ws/install/mtc_tutorial' for CMake module files
+[20.093s] Level 1:colcon.colcon_core.environment:checking '/home/developer/new_ros2_ws/install/mtc_tutorial' for CMake config files
+[20.094s] Level 1:colcon.colcon_core.shell:create_environment_hook('mtc_tutorial', 'cmake_prefix_path')
+[20.094s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/developer/new_ros2_ws/install/mtc_tutorial/share/mtc_tutorial/hook/cmake_prefix_path.ps1'
+[20.095s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/developer/new_ros2_ws/install/mtc_tutorial/share/mtc_tutorial/hook/cmake_prefix_path.dsv'
+[20.095s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/developer/new_ros2_ws/install/mtc_tutorial/share/mtc_tutorial/hook/cmake_prefix_path.sh'
+[20.095s] Level 1:colcon.colcon_core.environment:checking '/home/developer/new_ros2_ws/install/mtc_tutorial/lib'
+[20.095s] Level 1:colcon.colcon_core.environment:checking '/home/developer/new_ros2_ws/install/mtc_tutorial/bin'
+[20.095s] Level 1:colcon.colcon_core.environment:checking '/home/developer/new_ros2_ws/install/mtc_tutorial/lib/pkgconfig/mtc_tutorial.pc'
+[20.096s] Level 1:colcon.colcon_core.environment:checking '/home/developer/new_ros2_ws/install/mtc_tutorial/lib/python3.10/site-packages'
+[20.096s] Level 1:colcon.colcon_core.environment:checking '/home/developer/new_ros2_ws/install/mtc_tutorial/bin'
+[20.096s] INFO:colcon.colcon_core.shell:Creating package script '/home/developer/new_ros2_ws/install/mtc_tutorial/share/mtc_tutorial/package.ps1'
+[20.097s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/developer/new_ros2_ws/install/mtc_tutorial/share/mtc_tutorial/package.dsv'
+[20.097s] INFO:colcon.colcon_core.shell:Creating package script '/home/developer/new_ros2_ws/install/mtc_tutorial/share/mtc_tutorial/package.sh'
+[20.097s] INFO:colcon.colcon_core.shell:Creating package script '/home/developer/new_ros2_ws/install/mtc_tutorial/share/mtc_tutorial/package.bash'
+[20.098s] INFO:colcon.colcon_core.shell:Creating package script '/home/developer/new_ros2_ws/install/mtc_tutorial/share/mtc_tutorial/package.zsh'
+[20.098s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/developer/new_ros2_ws/install/mtc_tutorial/share/colcon-core/packages/mtc_tutorial)
+[20.098s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[20.099s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[20.099s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[20.099s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[20.106s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[20.106s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[20.106s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[20.106s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[20.109s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.Spawn.ExecFailed: /usr/bin/dbus-launch terminated abnormally without any error message
+[20.109s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[20.110s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/developer/new_ros2_ws/install/local_setup.ps1'
+[20.111s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/developer/new_ros2_ws/install/_local_setup_util_ps1.py'
+[20.112s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/developer/new_ros2_ws/install/setup.ps1'
+[20.122s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/developer/new_ros2_ws/install/local_setup.sh'
+[20.122s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/developer/new_ros2_ws/install/_local_setup_util_sh.py'
+[20.123s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/developer/new_ros2_ws/install/setup.sh'
+[20.134s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/developer/new_ros2_ws/install/local_setup.bash'
+[20.134s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/developer/new_ros2_ws/install/setup.bash'
+[20.143s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/developer/new_ros2_ws/install/local_setup.zsh'
+[20.143s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/developer/new_ros2_ws/install/setup.zsh'

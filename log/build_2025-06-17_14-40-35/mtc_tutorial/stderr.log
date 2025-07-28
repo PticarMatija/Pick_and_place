@@ -1,0 +1,10 @@
+[01m[K/home/developer/new_ros2_ws/src/mtc_tutorial/src/novi_mtc_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/developer/new_ros2_ws/src/mtc_tutorial/src/novi_mtc_node.cpp:380:51:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp::Node::SharedPtr MTCTaskNode::node_[m[K’ is private within this context
+  380 |     waitForObjectInScene("object", mtc_task_node->[01;31m[Knode_[m[K); // <-- Dodaj ovu liniju
+      |                                                   [01;31m[K^~~~~[m[K
+[01m[K/home/developer/new_ros2_ws/src/mtc_tutorial/src/novi_mtc_node.cpp:38:29:[m[K [01;36m[Knote: [m[Kdeclared private here
+   38 |     rclcpp::Node::SharedPtr [01;36m[Knode_[m[K;
+      |                             [01;36m[K^~~~~[m[K
+gmake[2]: *** [CMakeFiles/novi_mtc_node.dir/build.make:76: CMakeFiles/novi_mtc_node.dir/src/novi_mtc_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/novi_mtc_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

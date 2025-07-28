@@ -1,0 +1,64 @@
+[0.080s] Invoking command in '/home/developer/new_ros2_ws/build/rviz_gazebo_bridge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/developer/ws_moveit2/install/moveit_resources_pr2_description:/home/developer/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/developer/ws_moveit2/install/moveit_resources_fanuc_moveit_config:/home/developer/ws_moveit2/install/moveit_configs_utils:/home/developer/ws_moveit2/install/moveit_common:/home/developer/ros2_ws/install/rqt_joint_trajectory_controller:/home/developer/ros2_ws/install/rqt_controller_manager:/home/developer/ros2_ws/install/ros2controlcli:/home/developer/ros2_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake /home/developer/new_ros2_ws/src/rviz_gazebo_bridge -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/developer/new_ros2_ws/install/rviz_gazebo_bridge
+[0.426s] -- The C compiler identification is GNU 11.4.0
+[0.623s] -- The CXX compiler identification is GNU 11.4.0
+[0.660s] -- Detecting C compiler ABI info
+[0.998s] -- Detecting C compiler ABI info - done
+[1.010s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.010s] -- Detecting C compile features
+[1.012s] -- Detecting C compile features - done
+[1.021s] -- Detecting CXX compiler ABI info
+[1.390s] -- Detecting CXX compiler ABI info - done
+[1.402s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.402s] -- Detecting CXX compile features
+[1.403s] -- Detecting CXX compile features - done
+[1.491s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.079s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.251s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.103s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[3.836s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.960s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[4.089s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[4.246s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.463s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.123s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[5.201s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[5.588s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[5.775s] -- Looking for pthread.h
+[6.126s] -- Looking for pthread.h - found
+[6.126s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[6.475s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[6.476s] -- Found Threads: TRUE  
+[6.891s] -- Looking for ignition-msgs8 -- found version 8.7.0
+[6.966s] -- Searching for dependencies of ignition-msgs8
+[7.147s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[7.211s] -- Looking for ignition-math6 -- found version 6.15.1
+[7.212s] -- Searching for dependencies of ignition-math6
+[7.251s] -- Checking for module 'tinyxml2'
+[7.362s] --   Found tinyxml2, version 9.0.0
+[7.657s] -- Looking for ignition-transport11 -- found version 11.4.1
+[7.658s] -- Searching for dependencies of ignition-transport11
+[7.776s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[7.883s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[7.903s] -- Checking for module 'libzmq >= 4'
+[8.020s] --   Found libzmq , version 4.3.4
+[8.227s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[8.262s] -- Checking for module 'uuid'
+[8.342s] --   Found uuid, version 2.37.2
+[8.517s] -- Found UUID: TRUE  
+[8.571s] -- Looking for ignition-utils1 -- found version 1.5.1
+[8.572s] -- Searching for dependencies of ignition-utils1
+[8.572s] -- Searching for <ignition-utils1> component [cli]
+[8.611s] -- Looking for ignition-utils1-cli -- found version 1.5.1
+[8.612s] -- Searching for dependencies of ignition-utils1-cli
+[8.613s] -- Looking for ignition-msgs8 -- found version 8.7.0
+[8.654s] -- Found tf2_geometry_msgs: 0.25.12 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[8.879s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[8.882s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[8.882s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[9.415s] -- Found geometric_shapes: 2.3.2 (/opt/ros/humble/share/geometric_shapes/cmake)
+[9.514s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[10.001s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[10.164s] -- Found moveit_ros_planning_interface: 2.5.7 (/home/developer/ws_moveit2/install/moveit_ros_planning_interface/share/moveit_ros_planning_interface/cmake)
+[10.332s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+[10.683s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[10.707s] Invoked command in '/home/developer/new_ros2_ws/build/rviz_gazebo_bridge' returned '-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/developer/ws_moveit2/install/moveit_resources_pr2_description:/home/developer/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/developer/ws_moveit2/install/moveit_resources_fanuc_moveit_config:/home/developer/ws_moveit2/install/moveit_configs_utils:/home/developer/ws_moveit2/install/moveit_common:/home/developer/ros2_ws/install/rqt_joint_trajectory_controller:/home/developer/ros2_ws/install/rqt_controller_manager:/home/developer/ros2_ws/install/ros2controlcli:/home/developer/ros2_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake /home/developer/new_ros2_ws/src/rviz_gazebo_bridge -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/developer/new_ros2_ws/install/rviz_gazebo_bridge

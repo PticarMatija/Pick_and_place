@@ -1,0 +1,16 @@
+[0.052s] Invoking command in '/home/developer/new_ros2_ws/build/mtc_tutorial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/developer/ws_moveit2/install/moveit_resources_pr2_description:/home/developer/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/developer/ws_moveit2/install/moveit_resources_fanuc_moveit_config:/home/developer/ws_moveit2/install/moveit_configs_utils:/home/developer/ws_moveit2/install/moveit_common:/home/developer/ros2_ws/install/rqt_joint_trajectory_controller:/home/developer/ros2_ws/install/rqt_controller_manager:/home/developer/ros2_ws/install/ros2controlcli:/home/developer/ros2_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --build /home/developer/new_ros2_ws/build/mtc_tutorial -- -j16 -l16
+[0.244s] [35m[1mConsolidate compiler generated dependencies of target novi_mtc_node[0m
+[0.308s] [ 50%] Built target mtc_node
+[0.325s] [ 75%] [32mBuilding CXX object CMakeFiles/novi_mtc_node.dir/src/novi_mtc_node.cpp.o[0m
+[0.353s] [01m[K/home/developer/new_ros2_ws/src/mtc_tutorial/src/novi_mtc_node.cpp:275:13:[m[K [01;35m[Kwarning: [m[K"/*" within comment [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcomment-Wcomment]8;;[m[K]
+[0.354s]   275 |             /* target_pose_msg.pose.position.x = 0.7; */
+[0.354s]       |              
+[7.068s] [01m[K/home/developer/new_ros2_ws/src/mtc_tutorial/src/novi_mtc_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[7.068s] [01m[K/home/developer/new_ros2_ws/src/mtc_tutorial/src/novi_mtc_node.cpp:504:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass moveit::planning_interface::PlanningSceneInterface[m[K’ has no member named ‘[01m[KremoveAttachedCollisionObject[m[K’; did you mean ‘[01m[KapplyAttachedCollisionObject[m[K’?
+[7.068s]   504 |     planning_scene_interface.[01;31m[KremoveAttachedCollisionObject[m[K("object");
+[7.068s]       |                              [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.068s]       |                              [32m[KapplyAttachedCollisionObject[m[K
+[10.048s] gmake[2]: *** [CMakeFiles/novi_mtc_node.dir/build.make:76: CMakeFiles/novi_mtc_node.dir/src/novi_mtc_node.cpp.o] Error 1
+[10.048s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/novi_mtc_node.dir/all] Error 2
+[10.049s] gmake: *** [Makefile:146: all] Error 2
+[10.052s] Invoked command in '/home/developer/new_ros2_ws/build/mtc_tutorial' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/developer/ws_moveit2/install/moveit_resources_pr2_description:/home/developer/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/developer/ws_moveit2/install/moveit_resources_fanuc_moveit_config:/home/developer/ws_moveit2/install/moveit_configs_utils:/home/developer/ws_moveit2/install/moveit_common:/home/developer/ros2_ws/install/rqt_joint_trajectory_controller:/home/developer/ros2_ws/install/rqt_controller_manager:/home/developer/ros2_ws/install/ros2controlcli:/home/developer/ros2_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --build /home/developer/new_ros2_ws/build/mtc_tutorial -- -j16 -l16

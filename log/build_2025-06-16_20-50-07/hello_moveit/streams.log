@@ -1,0 +1,23 @@
+[0.082s] Invoking command in '/home/developer/new_ros2_ws/build/hello_moveit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/developer/ws_moveit2/install/moveit_configs_utils:/home/developer/ros2_ws/install/rqt_joint_trajectory_controller:/home/developer/ros2_ws/install/rqt_controller_manager:/home/developer/ros2_ws/install/ros2controlcli:/home/developer/ros2_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --build /home/developer/new_ros2_ws/build/hello_moveit -- -j16 -l16
+[0.515s] [100%] Built target hello_moveit
+[0.616s] Invoked command in '/home/developer/new_ros2_ws/build/hello_moveit' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/developer/ws_moveit2/install/moveit_configs_utils:/home/developer/ros2_ws/install/rqt_joint_trajectory_controller:/home/developer/ros2_ws/install/rqt_controller_manager:/home/developer/ros2_ws/install/ros2controlcli:/home/developer/ros2_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --build /home/developer/new_ros2_ws/build/hello_moveit -- -j16 -l16
+[0.619s] Invoking command in '/home/developer/new_ros2_ws/build/hello_moveit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/developer/ws_moveit2/install/moveit_configs_utils:/home/developer/ros2_ws/install/rqt_joint_trajectory_controller:/home/developer/ros2_ws/install/rqt_controller_manager:/home/developer/ros2_ws/install/ros2controlcli:/home/developer/ros2_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --install /home/developer/new_ros2_ws/build/hello_moveit
+[0.653s] -- Install configuration: "Release"
+[0.654s] -- Execute custom install script
+[0.654s] -- Up-to-date symlink: /home/developer/new_ros2_ws/install/hello_moveit/lib/hello_moveit/hello_moveit
+[0.655s] -- Up-to-date symlink: /home/developer/new_ros2_ws/install/hello_moveit/share/ament_index/resource_index/package_run_dependencies/hello_moveit
+[0.655s] -- Up-to-date symlink: /home/developer/new_ros2_ws/install/hello_moveit/share/ament_index/resource_index/parent_prefix_path/hello_moveit
+[0.656s] -- Up-to-date symlink: /home/developer/new_ros2_ws/install/hello_moveit/share/hello_moveit/environment/ament_prefix_path.sh
+[0.656s] -- Up-to-date symlink: /home/developer/new_ros2_ws/install/hello_moveit/share/hello_moveit/environment/ament_prefix_path.dsv
+[0.656s] -- Up-to-date symlink: /home/developer/new_ros2_ws/install/hello_moveit/share/hello_moveit/environment/path.sh
+[0.656s] -- Up-to-date symlink: /home/developer/new_ros2_ws/install/hello_moveit/share/hello_moveit/environment/path.dsv
+[0.656s] -- Up-to-date symlink: /home/developer/new_ros2_ws/install/hello_moveit/share/hello_moveit/local_setup.bash
+[0.656s] -- Up-to-date symlink: /home/developer/new_ros2_ws/install/hello_moveit/share/hello_moveit/local_setup.sh
+[0.656s] -- Up-to-date symlink: /home/developer/new_ros2_ws/install/hello_moveit/share/hello_moveit/local_setup.zsh
+[0.656s] -- Up-to-date symlink: /home/developer/new_ros2_ws/install/hello_moveit/share/hello_moveit/local_setup.dsv
+[0.656s] -- Symlinking: /home/developer/new_ros2_ws/install/hello_moveit/share/hello_moveit/package.dsv
+[0.698s] -- Up-to-date symlink: /home/developer/new_ros2_ws/install/hello_moveit/share/ament_index/resource_index/packages/hello_moveit
+[0.699s] -- Up-to-date symlink: /home/developer/new_ros2_ws/install/hello_moveit/share/hello_moveit/cmake/hello_moveitConfig.cmake
+[0.699s] -- Up-to-date symlink: /home/developer/new_ros2_ws/install/hello_moveit/share/hello_moveit/cmake/hello_moveitConfig-version.cmake
+[0.699s] -- Up-to-date symlink: /home/developer/new_ros2_ws/install/hello_moveit/share/hello_moveit/package.xml
+[0.737s] Invoked command in '/home/developer/new_ros2_ws/build/hello_moveit' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/developer/ws_moveit2/install/moveit_configs_utils:/home/developer/ros2_ws/install/rqt_joint_trajectory_controller:/home/developer/ros2_ws/install/rqt_controller_manager:/home/developer/ros2_ws/install/ros2controlcli:/home/developer/ros2_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --install /home/developer/new_ros2_ws/build/hello_moveit

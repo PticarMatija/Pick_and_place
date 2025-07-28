@@ -1,0 +1,17 @@
+/home/developer/new_ros2_ws/install/baxter_mtc/share/baxter_mtc/launch/baxter_launch.py
+/home/developer/new_ros2_ws/install/baxter_mtc/lib/baxter_mtc/baxter_mtc_node
+/home/developer/new_ros2_ws/install/baxter_mtc/share/ament_index/resource_index/package_run_dependencies/baxter_mtc
+/home/developer/new_ros2_ws/install/baxter_mtc/share/ament_index/resource_index/parent_prefix_path/baxter_mtc
+/home/developer/new_ros2_ws/install/baxter_mtc/share/baxter_mtc/environment/ament_prefix_path.sh
+/home/developer/new_ros2_ws/install/baxter_mtc/share/baxter_mtc/environment/ament_prefix_path.dsv
+/home/developer/new_ros2_ws/install/baxter_mtc/share/baxter_mtc/environment/path.sh
+/home/developer/new_ros2_ws/install/baxter_mtc/share/baxter_mtc/environment/path.dsv
+/home/developer/new_ros2_ws/install/baxter_mtc/share/baxter_mtc/local_setup.bash
+/home/developer/new_ros2_ws/install/baxter_mtc/share/baxter_mtc/local_setup.sh
+/home/developer/new_ros2_ws/install/baxter_mtc/share/baxter_mtc/local_setup.zsh
+/home/developer/new_ros2_ws/install/baxter_mtc/share/baxter_mtc/local_setup.dsv
+/home/developer/new_ros2_ws/install/baxter_mtc/share/baxter_mtc/package.dsv
+/home/developer/new_ros2_ws/install/baxter_mtc/share/ament_index/resource_index/packages/baxter_mtc
+/home/developer/new_ros2_ws/install/baxter_mtc/share/baxter_mtc/cmake/baxter_mtcConfig.cmake
+/home/developer/new_ros2_ws/install/baxter_mtc/share/baxter_mtc/cmake/baxter_mtcConfig-version.cmake
+/home/developer/new_ros2_ws/install/baxter_mtc/share/baxter_mtc/package.xml

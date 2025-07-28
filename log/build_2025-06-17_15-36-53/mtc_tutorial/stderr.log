@@ -1,0 +1,7 @@
+[01m[K/home/developer/new_ros2_ws/src/mtc_tutorial/src/novi_mtc_node.cpp:[m[K In member function ‘[01m[Kvoid MTCTaskNode::setupPlanningScene()[m[K’:
+[01m[K/home/developer/new_ros2_ws/src/mtc_tutorial/src/novi_mtc_node.cpp:88:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class rclcpp::Node[m[K’ {aka ‘[01m[Kclass rclcpp::Node[m[K’} has no member named ‘[01m[Kwait_for_service[m[K’
+   88 |     if (!node->[01;31m[Kwait_for_service[m[K("/apply_planning_scene", std::chrono::seconds(5)))
+      |                [01;31m[K^~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/novi_mtc_node.dir/build.make:76: CMakeFiles/novi_mtc_node.dir/src/novi_mtc_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/novi_mtc_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

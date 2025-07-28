@@ -1,0 +1,8 @@
+In file included from [01m[K/home/developer/new_ros2_ws/src/mtc_tutorial/src/mtc_node.cpp:20[m[K:
+[01m[K/home/developer/baxter_ws/install/rviz_gazebo_bridge/include/rviz_gazebo_bridge/rviz_gazebo_bridge.h:31:10:[m[K [01;31m[Kfatal error: [m[Kignition/transport/Node.hh: No such file or directory
+   31 | #include [01;31m[K<ignition/transport/Node.hh>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/mtc_node.dir/build.make:76: CMakeFiles/mtc_node.dir/src/mtc_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/mtc_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
